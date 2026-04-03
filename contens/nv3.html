@@ -7,9 +7,9 @@
       <p id="kq"> </p>
       <script>
          let pp = new URL.SearchParams(window.location.search)
-         let ten = pp.get("ten");
-         let dc = pp.get("dia chi ");
-         let yk = pp.get("comment");
+         let ten = pp.get("txtTen");
+         let dc = pp.get("txtEmail");
+         let yk = pp.get("txtComment");
          document.getflementById("kq").innerHTML = " Cảm ơn bạn " + ten + " email : " + dc + " đã góp ý <br> <br> Chúng tôi xin phép ghi nhận ý kiến của bạn như sau: <br>" + yk;
       </script>
       <form action="ykien.html" method="GET">
